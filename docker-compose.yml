@@ -1,4 +1,4 @@
-version: 
+version: '3.8'
 services:
 # REST API running on Node JS container
   app:
