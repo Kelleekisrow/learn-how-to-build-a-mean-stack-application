@@ -21,7 +21,7 @@ services:
     ports:
       - '27017:27017'
 # Attach the external network to these containers
-    networks:
-      default:
-        external:
-          name: lafs-net
+  networks:
+    default:
+      external:
+        name: lafs-net
