@@ -1,10 +1,10 @@
-
+version: 
 services:
 # REST API running on Node JS container
   app:
     container_name: lafs-api
     restart: always
-    build: 
+    build: ''
     ports:
       - '3000:3000'
 # link this container to the Mongo DB container
