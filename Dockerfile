@@ -19,4 +19,5 @@ COPY . .
 # Expose port 3000 outside container
 EXPOSE port 3000
 # Command used to start application 
-CMD npm run start [“node”, “server/server.js”]
+CMD npm run start
+# [“node”, “server/server.js”]
